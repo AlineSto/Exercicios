@@ -1,0 +1,25 @@
+package exercico;
+
+/* faça um algoritimo para ler o prelo de compra e o porcentual de 
+ * lucro desejado por um vendedor e calcular o preço */
+ */
+
+
+
+public class Lucro {
+	
+	public static void main (String []args) {
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+
+}

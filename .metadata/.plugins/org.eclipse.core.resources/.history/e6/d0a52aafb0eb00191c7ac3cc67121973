@@ -1,0 +1,39 @@
+package exercico;
+import java.util.Scanner;
+
+
+public class Fibonaci {
+	
+	
+	public static void main (String[] args) {
+		int n,cont=1,fib,ant,atual;
+		
+		Scanner ler= new Scanner(System.in);
+		
+		System.out.println("informe um numero: ");
+		n=ler.nextInt();
+		fib=1;
+		ant=0;
+		atual=1;
+		for (int i=0; i<n;i++) {
+		
+			fib=ant+atual;
+		ant=atual;
+		atual=fib;
+		}	
+		
+			
+		
+		System.out.println("-----------");
+		System.out.println(fib);
+		
+		
+		
+		
+		
+		
+
+	
+	}	
+
+}
