@@ -1,0 +1,26 @@
+package exercico;
+import java.util.Scanner;
+
+public class Par_e_Impar {
+ 
+	public static void main(String[]args) {
+		int n;
+		
+		Scanner ler= new Scanner (System.in);
+		System.out.println(' informe o numero: ');
+		n=ler.nextInt();
+		
+		 if(n/2==0) {
+			 System.out.println(" numero par");
+		 }else
+			 System.out.println("Numero impar");
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+}
